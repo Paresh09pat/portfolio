@@ -1,4 +1,4 @@
-.zz{
+.zz {
   background-color: rgb(239, 233, 233);
   border: 1px solid red;
   width: 100%;
@@ -6,56 +6,58 @@
 }
 
 .navbar {
-    overflow: hidden;
-    position: absolute;
-    top: 10px;
-    width: 60%;
-    margin-left: 30%;
-  }
-  
-  .navbar a {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    top: 10px;
-  }
-  
-  .navbar a:hover {
-    color:rgb(231, 71, 42);
-  }
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  width: 60%;
+  margin-left: 30%;
+}
 
-  .aa{
-    background-color:rgb(255, 229, 196);
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    padding: 10px 0 10px 0;
-  }
+.navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  top: 10px;
+}
 
-  .aa1{
-    text-align: center;
-    width: 30%;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+.navbar a:hover {
+  color: rgb(231, 71, 42);
+}
 
-  a:link{
-    color: black;
-  }
+.aa {
+  background-color: rgb(255, 229, 196);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
 
-  a:visited{
-    color: black;
-  }
+.aa1 {
+  text-align: center;
+  width: 30%;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:mediumorchid;
+  text-shadow: 2px 3px 4px springgreen;
+}
 
-  a:active{
-    color:springgreen;
-  }
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: springgreen;
+}
 
 section {
   width: 100%;
@@ -64,7 +66,9 @@ section {
 
 .pattern {
   position: relative;
-  background-color: #58a48c;
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg,
+      #3bb78f 0%, #0bab64 74%);
 }
 
 .pattern:before {
@@ -79,68 +83,72 @@ section {
   background-repeat: no-repeat;
 }
 
-.bb{
+
+.bb {
   width: 100%;
   height: 420px;
   position: relative;
   top: 00px;
 }
 
-.bb1{
+.bb1 {
   position: absolute;
   width: 50%;
   margin: 20px 0 0 80px;
 }
 
-.bb2{
+.bb2 {
   color: coral;
   font-size: 40px;
   word-spacing: 5px;
   font-weight: bolder;
+  text-shadow: 2px 3px 4px rgb(30, 15, 243);
 }
 
-.bb3{
+.bb3 {
   font-size: 40px;
   color: white;
   font-weight: bolder;
 }
 
-.bb4{
+.bb4 {
   color: white;
 }
 
-.bb6{
+.bb6 {
   background-color: rgb(127, 186, 186);
   width: 100px;
   height: 35px;
   margin: 0 20px 0 0;
   border-radius: 10px;
   color: white;
-  transition: width 2s height 2s ;
+  transition: width 2s height 2s;
   transition-duration: 0.3s;
+  border: none;
 }
 
-.bb6:hover{
-  width:105px ;
-  height:40px ;
+.bb6:hover {
+  width: 105px;
+  height: 40px;
 }
 
-.bb7{
-  background-color:orange;
+.bb7 {
+  background-color: orange;
   width: 100px;
   height: 35px;
   border-radius: 10px;
   color: white;
-  transition: width 2s height 2s ;
+  transition: width 2s height 2s;
   transition-duration: .3s;
+  border: none;
 }
 
-.bb7:hover{
-  width:105px ;
-  height:40px ;
+.bb7:hover {
+  width: 105px;
+  height: 40px;
 }
 
-.bb8{
+.bb8 {
   width: 620px;
   height: 420px;
   position: absolute;
@@ -148,25 +156,25 @@ section {
   top: 30px;
 }
 
-.cc{
+.cc {
   width: 80%;
   height: 450px;
   position: relative;
   left: 10%;
-  top:100px;
+  top: 100px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 5px 5px rgb(184, 142, 225);
 }
 
-.cc1{
+.cc1 {
   width: 35%;
   height: 420px;
   position: absolute;
   top: 30px;
 }
 
-.cc2{
+.cc2 {
   width: 55%;
   height: 270px;
   position: absolute;
@@ -174,44 +182,45 @@ section {
   top: 10px;
 }
 
-.cc3{
+.cc3 {
   position: absolute;
   bottom: 30px;
   right: 70px;
-  width:55%;
+  width: 55%;
   padding: 5px 0 5px 5px;
   border-radius: 10px;
-  box-shadow: 1px 1px 20px black;
+  box-shadow: 1px 1px 20px rgb(164, 160, 160);
+
 }
 
-.cc4{
+.cc4 {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   margin-top: 10px;
 }
 
-.cc5{
+.cc5 {
   width: 60px;
   height: 60px;
 }
 
-.cc6{
-  color:cadetblue ;
+.cc6 {
+  color: cadetblue;
   margin-left: 5%;
 }
 
-.cc7{
+.cc7 {
   word-spacing: 5px;
   line-height: 25px;
   color: cadetblue;
 }
 
-.cc8{
-color: cadetblue;
+.cc8 {
+  color: cadetblue;
 }
 
-.line1{
+.line1 {
   border-top: 5px solid orangered;
   position: relative;
   bottom: 20px;
@@ -219,19 +228,19 @@ color: cadetblue;
   left: 0%;
 }
 
-#dd{
-margin-top: 140px;
-position: relative;
-height: 550px;
+#dd {
+  margin-top: 140px;
+  position: relative;
+  height: 550px;
 }
 
-.dd1{
+.dd1 {
   margin-top: 20px;
   text-align: center;
   color: cadetblue;
 }
 
-.line2{
+.line2 {
   border-top: 5px solid orangered;
   position: relative;
   bottom: 15px;
@@ -239,7 +248,7 @@ height: 550px;
   left: 44%;
 }
 
-.dd2{
+.dd2 {
   width: 80%;
   height: 450px;
   position: relative;
@@ -249,34 +258,34 @@ height: 550px;
   display: flex;
 }
 
-.dd3{
-width: 31%;
-height: 215px;
-position: absolute;
+.dd3 {
+  width: 31%;
+  height: 215px;
+  position: absolute;
 }
 
-.dd4{
+.dd4 {
   width: 26%;
   height: 215px;
   position: absolute;
   left: 390px;
 }
 
-.dd5{
+.dd5 {
   width: 40%;
   height: 215px;
   position: absolute;
   left: 720px;
 }
 
-.dd6{
+.dd6 {
   width: 26%;
   height: 215px;
   position: absolute;
   top: 230px;
 }
 
-.dd7{
+.dd7 {
   width: 40%;
   height: 215px;
   position: absolute;
@@ -284,7 +293,7 @@ position: absolute;
   left: 330px;
 }
 
-.dd8{
+.dd8 {
   width: 31%;
   height: 215px;
   position: absolute;
@@ -292,42 +301,42 @@ position: absolute;
   left: 827px;
 }
 
-.pic1{
+.pic1 {
   width: 375px;
   height: 215px;
 }
 
-.pic2{
+.pic2 {
   width: 315px;
   height: 215px;
 }
 
-.pic3{
+.pic3 {
   width: 480px;
   height: 215px;
 }
 
-.pic4{
+.pic4 {
   width: 315px;
   height: 215px;
 }
 
-.pic5{
+.pic5 {
   width: 480px;
   height: 215px;
 }
 
-.pic6{
+.pic6 {
   width: 375px;
   height: 215px;
 }
 
-#ee1{
+#ee1 {
   text-align: center;
   color: cadetblue;
 }
 
-.line3{
+.line3 {
   border-top: 5px solid orangered;
   position: relative;
   bottom: 20px;
@@ -335,7 +344,7 @@ position: absolute;
   left: 46.3%;
 }
 
-.ee2{
+.ee2 {
   width: 80%;
   height: 450px;
   position: relative;
@@ -344,110 +353,128 @@ position: absolute;
   color: cadetblue;
 }
 
-.gg1{
+.gg1 {
   width: 15px;
   height: 15px;
   position: absolute;
-  background-color:green;
+  background-color: green;
   border-radius: 50%;
 }
 
-.cir{
+.cir {
   border-left: 5px solid blue;
   height: 50px;
-  margin-left:4.5px;
+  margin-left: 4.5px;
 }
 
-.gg2{
-margin-left: 40px;
-font-weight: bold;
-position: absolut;
-margin-bottom: 10px;
-position:relative ;
+.gg2 {
+  margin-left: 40px;
+  font-weight: bold;
+  position: absolute;
+  margin-bottom: 10px;
+  position: relative;
 }
 
-.gg3{
+.gg3 {
   width: 15px;
   height: 15px;
   position: absolute;
-  background-color:green;
+  background-color: green;
   border-radius: 50%;
-  top:155px;
+  top: 155px;
 }
 
-.gg4{
+.pb {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: green;
+  border-radius: 50%;
+  top: 220px;
+}
+
+.gg4 {
   margin-left: 40px;
   font-weight: bold;
   position: relative;
- top: 5px;
+  top: 5px;
   bottom: 0px;
 }
 
-.gg5{
+.pb1 {
+  margin-left: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+  bottom: 0px;
+}
+
+.gg5 {
   border-left: 4px solid green;
-  height: 135px;
+  height: 200px;
   position: absolute;
-  left: 6px;
+  left: 5.5px;
 }
 
-.ee3{
+.ee3 {
   width: 65%;
+  border: 1px solid red;
 }
 
-.ff3{
+.ff3 {
   font-size: small;
 }
 
-.fff3{
+.fff3 {
   font-size: small;
 }
 
-.ff4{
+.ff4 {
   font-size: large;
   font-weight: bolder;
   letter-spacing: 1px;
   padding-top: 25px;
 }
 
-.circl{
+.circl {
   width: 15px;
   height: 15px;
   position: absolute;
-  background-color:green;
+  background-color: green;
   border-radius: 50%;
   margin-top: 0px;
 }
 
-.gg6{
+.gg6 {
   border-left: 4px solid green;
   height: 100px;
   position: absolute;
-  left: 6px;
-  top: 310px;
+  left: 5.5px;
+  top: 380px;
 }
 
-.ff5{
-font-size: larger;
-font-weight: bolder;
-letter-spacing: 1px;
-padding-top: 25px;
+.ff5 {
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding-top: 25px;
 }
 
-.ff6{
-font-size: large;
-font-weight: bold;
+.ff6 {
+  font-size: large;
+  font-weight: bold;
 }
 
-.ff7{
-font-weight: bold;
+.ff7 {
+  font-weight: bold;
 }
 
-.ff8{
+.ff8 {
   margin-left: 40px;
   position: relative;
 }
 
-.ggg{
+.ggg {
   width: 90px;
   height: 20px;
   position: absolute;
@@ -460,7 +487,7 @@ font-weight: bold;
   color: white;
 }
 
-.gg7{
+.gg7 {
   width: 90px;
   height: 20px;
   position: absolute;
@@ -473,7 +500,7 @@ font-weight: bold;
   color: white;
 }
 
-.gg8{
+.gg8 {
   width: 90px;
   height: 20px;
   position: absolute;
@@ -486,7 +513,7 @@ font-weight: bold;
   color: white;
 }
 
-.hh1{
+.hh1 {
   width: 30%;
   height: 350px;
   position: absolute;
@@ -496,15 +523,15 @@ font-weight: bold;
   border-radius: 10px;
 }
 
-.hh2{
+.hh2 {
   width: 440px;
   height: 380px;
-  right:35px;
+  right: 35px;
   bottom: 30px;
   position: relative;
 }
 
-.hh3{
+.hh3 {
   width: 30%;
   height: 80px;
   position: absolute;
@@ -516,11 +543,13 @@ font-weight: bold;
   background-color: white;
 }
 
-.hh4{
-  margin-top: 20px;
+.hh4 {
+  margin-top: 16px;
+  width: 50px;
+  height: 50px;
 }
 
-.jj{
+.jj {
   width: 100%;
   position: relative;
   top: 80px;
@@ -528,14 +557,14 @@ font-weight: bold;
   height: 600px;
 }
 
-.jj1{
-height: 50px;
-margin-left: 50px;
-text-underline-offset: 15px;
-color: cadetblue;
+.jj1 {
+  height: 50px;
+  margin-left: 50px;
+  text-underline-offset: 15px;
+  color: cadetblue;
 }
 
-.line{
+.line {
   border-top: 5px solid orangered;
   position: relative;
   bottom: 30px;
@@ -543,7 +572,7 @@ color: cadetblue;
   left: 40%;
 }
 
-.jj2{
+.jj2 {
   width: 80%;
   height: 440px;
   position: relative;
@@ -557,40 +586,40 @@ color: cadetblue;
   box-shadow: 1px 1px 40px black;
 }
 
-.jj3{
+.jj3 {
   width: 25%;
   height: 350px;
   position: relative;
 }
 
-.jj6{
+.jj6 {
   width: 150px;
   height: 150px;
 }
 
-.jj7{
+.jj7 {
   width: 70%;
   margin-left: 15%;
 }
 
-.jj8{
+.jj8 {
   font-weight: bold;
   font-size: large;
 }
 
-.jj4{
+.jj4 {
   width: 25%;
   height: 350px;
   position: relative;
 }
 
-.jj5{
+.jj5 {
   width: 25%;
   height: 350px;
   position: relative;
 }
 
-.jj9{
+.jj9 {
   width: 100%;
   height: 50px;
   bottom: 0px;
@@ -600,46 +629,47 @@ color: cadetblue;
   padding-top: 20px;
   color: orange;
   font-size: large;
-  border-radius: 0px 0px 10px 10px ;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.jj10{
+.jj10 {
   font-size: larger;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
-.kk{
-position: relative;
-top: 100px;
-text-align: center;
-width: 100%;
-height: 600px;
+.kk {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+  height: 600px;
 }
 
-#kk1{
+#kk1 {
   color: cadetblue;
 }
 
-.kk2{
+.kk2 {
   width: 80%;
   height: 460px;
   position: relative;
   left: 10%;
-  top:0px;
+  top: 0px;
   display: flex;
   background-color: white;
-  border-radius: 10px;    
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgb(247, 115, 115);
 }
 
-.kk3{
+.kk3 {
   width: 50%;
   height: 440px;
   text-align: start;
   padding: 60px 60px 0px 80px;
-  border-radius: 10px 0px 0px 0px ;
+  border-radius: 10px 0px 0px 0px;
 }
 
-.line4{
+.line4 {
   border-top: 5px solid orangered;
   position: relative;
   bottom: 20px;
@@ -647,36 +677,36 @@ height: 600px;
   left: 44.7%;
 }
 
-.kk5{
+.kk5 {
   font-weight: bold;
 }
 
-.kk6{
-position: relative;
-top: 20px;
+.kk6 {
+  position: relative;
+  top: 20px;
 }
 
-.kk7{
+.kk7 {
   position: relative;
   top: 40px;
 }
 
-.kk8{
+.kk8 {
   position: relative;
   top: 60px;
 }
 
-.kk4{
+.kk4 {
   width: 50%;
   height: 440px;
   text-align: start;
   background-color: rgb(232, 180, 116);
   line-height: 20px;
   padding: 20px 0px 0px 110px;
-  border-radius: 0px 10px 10px 0px ;
+  border-radius: 0px 10px 10px 0px;
 }
 
-.kk9{
+.kk9 {
   background-color: rgb(237, 164, 29);
   color: white;
   padding: 8px;
@@ -685,7 +715,18 @@ top: 20px;
   border: none;
 }
 
-.mm{
+.mm1 {
+  width: 70%;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  background-color: rgb(241, 196, 140);
+  font-size: medium;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.mm {
   width: 100%;
   position: relative;
   top: 100px;
@@ -695,9 +736,27 @@ top: 20px;
   font-size: large;
 }
 
-@media screen  and (max-width:360px){
+#writtentext {
+  color: red;
+  text-decoration: none;
+  font-size: 45px;
+  text-shadow: 2px 3px 4px rgb(234, 227, 227);
+}
 
-  .aa1{
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:360px) {
+
+  .aa1 {
     text-align: center;
     width: 60%;
     padding-top: 10px;
@@ -713,25 +772,25 @@ top: 20px;
     display: none;
   }
 
-  .bb{
+  .bb {
     width: 100%;
     height: 630px;
     position: relative;
     top: 0px;
   }
-  
-  .bb1{
+
+  .bb1 {
     position: absolute;
     width: 100%;
     margin: 50px 0 0 10px;
     display: block;
   }
 
-  .bb2{
+  .bb2 {
     font-size: 30px;
   }
 
-  .bb3{
+  .bb3 {
     font-size: 30px;
   }
 
@@ -739,11 +798,11 @@ top: 20px;
     width: 100%;
     height: 630px;
   }
-  
+
   .pattern {
     position: relative;
   }
-  
+
   .pattern:before {
     content: "";
     position: absolute;
@@ -753,81 +812,81 @@ top: 20px;
     height: 250px;
   }
 
-  .bb8{
+  .bb8 {
     width: 140%;
     height: 360px;
     position: absolute;
     left: -30%;
-    top: 270px; 
+    top: 270px;
   }
 
-  .bb6{
+  .bb6 {
     background-color: rgb(127, 186, 186);
     width: 120px;
     height: 40px;
     margin: 0 20px 0 0;
     border-radius: 10px;
     color: white;
-    transition: width 2s height 2s ;
+    transition: width 2s height 2s;
     transition-duration: 0.3s;
   }
-  
-  .bb6:hover{
-    width:125px ;
-    height:45px ;
+
+  .bb6:hover {
+    width: 125px;
+    height: 45px;
   }
 
-  .bb7{
-    background-color:orange;
+  .bb7 {
+    background-color: orange;
     width: 120px;
     height: 40px;
     border-radius: 10px;
     color: white;
-    transition: width 2s height 2s ;
+    transition: width 2s height 2s;
     transition-duration: .3s;
   }
-  
-  .bb7:hover{
-    width:125px ;
-    height:45px ;
+
+  .bb7:hover {
+    width: 125px;
+    height: 45px;
   }
 
-  .cc{
+  .cc {
     width: 100%;
     height: 860px;
     position: relative;
     margin-left: -10%;
-    top:20px;
+    top: 20px;
     border-radius: 0px;
     display: block;
     box-shadow: none;
   }
 
-  .cc1{
+  .cc1 {
     width: 110%;
     height: 350px;
     position: absolute;
     top: 430px;
   }
 
-  .cc2{
+  .cc2 {
     width: 90%;
     height: 270px;
     position: absolute;
     top: 0px;
-    left: 5%; 
+    left: 5%;
   }
 
-  .cc3{
+  .cc3 {
     position: absolute;
     bottom: 20px;
     left: 4%;
-    width:90%;
+    width: 90%;
     height: 200px;
     background-color: white;
   }
 
-  .cc4{
+  .cc4 {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -835,54 +894,54 @@ top: 20px;
     flex-wrap: wrap;
   }
 
-  .cc5{
+  .cc5 {
     width: 50px;
     height: 50px;
     padding: 12px;
   }
 
-  .cc6{
-  font-size: large;
-  padding: 5px 0px 0px 0px;
+  .cc6 {
+    font-size: large;
+    padding: 5px 0px 0px 0px;
   }
 
-  .cc8{
-   text-align: center;
-   position: relative;
-   left: 0px;
-  }
-    
-  .line1{
-   position: relative;
-   bottom: 20px;
-   width: 47%;
-   left: 29%;
+  .cc8 {
+    text-align: center;
+    position: relative;
+    left: 0px;
   }
 
-  #dd{
+  .line1 {
+    position: relative;
+    bottom: 20px;
+    width: 47%;
+    left: 29%;
+  }
+
+  #dd {
     display: none;
   }
 
-  .ee{
+  .ee {
     position: relative;
     top: 20px;
     width: 100%;
     height: 1250px;
   }
 
-  #ee1{
+  #ee1 {
     position: relative;
     top: 20px;
   }
 
-  .line3{
+  .line3 {
     position: relative;
     bottom: 0px;
     width: 36%;
     left: 34%;
   }
 
-  .ee2{
+  .ee2 {
     width: 100%;
     height: 450px;
     position: relative;
@@ -890,23 +949,23 @@ top: 20px;
     top: 0px;
   }
 
-  .hh1{
+  .hh1 {
     width: 100%;
     height: 320px;
     position: absolute;
     bottom: 120px;
     left: 0px;
   }
-  
-  .hh2{
+
+  .hh2 {
     width: 350px;
     height: 320px;
-    left:10px;
+    left: 10px;
     bottom: 0px;
     position: relative;
   }
-  
-  .hh3{
+
+  .hh3 {
     width: 100%;
     height: 80px;
     position: absolute;
@@ -914,13 +973,13 @@ top: 20px;
     left: 0px;
   }
 
-  .ee3{
+  .ee3 {
     width: 100%;
     position: relative;
     top: 420px;
   }
 
-  .gg7{
+  .gg7 {
     width: 90px;
     height: 20px;
     position: absolute;
@@ -930,7 +989,7 @@ top: 20px;
     padding: 5px;
   }
 
-  .ggg{
+  .ggg {
     width: 90px;
     height: 20px;
     position: absolute;
@@ -939,87 +998,87 @@ top: 20px;
     text-align: center;
     padding: 5px;
   }
-  
-  .fff2{
+
+  .fff2 {
     position: relative;
     top: 50px;
     line-height: 25px;
   }
 
-  .fff3{
+  .fff3 {
     position: relative;
     top: 50px;
   }
 
-  .ff1{
+  .ff1 {
     width: 80%;
     position: relative;
     left: 5%;
   }
 
-  .ff2{
+  .ff2 {
     line-height: 25px;
   }
 
-  .ff4{
+  .ff4 {
     margin-left: 10px;
   }
 
-  .ff5{
+  .ff5 {
     position: relative;
     top: 100px;
     margin-left: 10px;
   }
 
-  .pp{
+  .pp {
     position: relative;
     top: 100px;
   }
 
-  .gg5{
+  .gg5 {
     height: 300px;
     position: absolute;
     left: 6px;
   }
 
-  .fff5{
+  .fff5 {
     width: 80%;
     position: relative;
     left: 5%;
     top: 100px;
   }
-  
-  .f11{
+
+  .f11 {
     position: relative;
     top: 100px;
   }
 
-  .ff8{
+  .ff8 {
     top: 10px;
   }
 
-  .ff7{
+  .ff7 {
     position: relative;
     top: 50px;
   }
 
-  .fff7{
+  .fff7 {
     position: relative;
     top: 50px;
     line-height: 30px;
   }
 
-  .circl{
+  .circl {
     top: 10px;
   }
 
-  .gg6{
+  .gg6 {
     height: 230px;
     position: absolute;
     top: 10px;
   }
 
-  .gg8{
+  .gg8 {
     width: 90px;
     height: 20px;
     position: absolute;
@@ -1027,59 +1086,59 @@ top: 20px;
     top: 40px;
   }
 
-  .jj{
+  .jj {
     width: 100%;
   }
 
-  .jj1{
+  .jj1 {
     width: 100%;
     position: relative;
     left: -50px;
     font-size: 28px;
     bottom: 50px;
   }
-    
-  .line{
+
+  .line {
     position: relative;
     bottom: 80px;
     width: 91%;
     left: 7%;
   }
 
-  .jj2{
+  .jj2 {
     width: 100%;
     height: 490px;
     position: absolute;
     left: 0px;
     top: 30px;
-    border-radius:0px;
+    border-radius: 0px;
     box-shadow: none;
   }
 
-  .jj3{
+  .jj3 {
     width: 100%;
     height: 350px;
     position: relative;
     margin-top: 50px;
   }
 
-  .jj4{
-    display: none;
-  }
-  
-  .jj5{
+  .jj4 {
     display: none;
   }
 
-  .jj9{
+  .jj5 {
+    display: none;
+  }
+
+  .jj9 {
     border-radius: 0px;
   }
 
-  .jjj{
+  .jjj {
     line-height: 25px;
   }
 
-  .kk{
+  .kk {
     position: relative;
     top: 40px;
     text-align: center;
@@ -1087,17 +1146,17 @@ top: 20px;
     height: 600px;
   }
 
-  .kk2{
+  .kk2 {
     width: 100%;
     height: 460px;
     position: relative;
-    left:0%;
-    top:0px;
+    left: 0%;
+    top: 0px;
     display: block;
-    border-radius: 0px;    
+    border-radius: 0px;
   }
-  
-  .kk3{
+
+  .kk3 {
     width: 90%;
     height: 440px;
     text-align: start;
@@ -1105,7 +1164,7 @@ top: 20px;
     border-radius: 0px;
   }
 
-  .kk4{
+  .kk4 {
     width: 95%;
     height: 440px;
     text-align: start;
@@ -1115,16 +1174,16 @@ top: 20px;
     border-radius: 0px;
   }
 
-  .kk5{
+  .kk5 {
     line-height: 25px;
   }
 
-  .line4{
+  .line4 {
     width: 52%;
     left: 27%;
   }
 
-  .mm{
+  .mm {
     position: absolute;
     bottom: 0px;
     top: 4500px;
@@ -1132,8 +1191,8 @@ top: 20px;
     width: 100%;
   }
 
- .mm1{
-  width: 90%;
- }
- 
+  .mm1 {
+    width: 90%;
+  }
+
 }
